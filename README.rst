@@ -10,7 +10,9 @@ This is small library that allows you to easily interact with `PeerIndex API`_.
 Installation
 ````````````
 
-The easiest way - via packagist:
+The easiest way - via packagist_:
+
+.. _packagist: https://packagist.org/packages/nixilla/peerindex-api-consumer
 
 .. code-block:: json
 
