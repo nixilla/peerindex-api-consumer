@@ -12,7 +12,7 @@ Installation
 
 The easiest way - via packagist:
 
-..code-block:: json
+.. code-block:: json
 
     {
         "require": {
@@ -28,7 +28,7 @@ See example.php
 Contributing (with tests):
 ``````````````````````````
 
-..code-block:: sh
+.. code-block:: sh
 
     git clone git://github.com/nixilla/peerindex-api-consumer.git && \
     cd peerindex-api-consumer && \
