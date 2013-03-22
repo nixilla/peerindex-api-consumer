@@ -33,9 +33,9 @@ class Actor implements \ArrayAccess
         return isset($this->container['topics']) ? $this->container['topics'] : null;
     }
 
-    public function getInfluence()
+    public function getGraph()
     {
-        return isset($this->container['influence']) ? $this->container['influence'] : null;
+        return isset($this->container['graph']) ? $this->container['graph'] : null;
     }
 
     public function getId($type = self::PEERINDEX_ID)
