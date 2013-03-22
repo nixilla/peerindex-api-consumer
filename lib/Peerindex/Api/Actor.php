@@ -16,9 +16,9 @@ class Actor implements \ArrayAccess
 
         $instance->container = $input;
 
-        if( ! $instance[self::TWITTER_ID])
+        if(! isset($instance->container[self::TWITTER_ID]))
             if(isset($input['twitter']['id']))
-                $instance[self::TWITTER_ID] = $input['twitter']['id'];
+                $instance->container[self::TWITTER_ID] = $input['twitter']['id'];
 
         return $instance;
     }
