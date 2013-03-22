@@ -2,7 +2,7 @@
 
 <phpunit backupGlobals="false" bootstrap="vendor/autoload.php" colors="true">
     <testsuites>
-        <testsuite name="PeerIndexApi Test Suite">
+        <testsuite name="PeerIndex Api Test Suite">
             <directory suffix="Test.php">./test/Peerindex/</directory>
         </testsuite>
     </testsuites>
