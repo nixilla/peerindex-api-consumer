@@ -18,7 +18,7 @@ The easiest way - via packagist_:
 
     {
         "require": {
-            "nixilla/peerindex-api-consumer": "~0.2"
+            "nixilla/peerindex-api-consumer": "~0.3"
         }
     }
 
