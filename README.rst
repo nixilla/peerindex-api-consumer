@@ -18,7 +18,7 @@ The easiest way - via packagist_:
 
     {
         "require": {
-            "nixilla/klout-api-consumer": "~0.5"
+            "nixilla/peerindex-api-consumer": "~0.2"
         }
     }
 
